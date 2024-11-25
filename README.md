@@ -154,10 +154,11 @@ Method: GET
 
 ![Acesso ao Wazuh sem vpn](./imgs/wazuh-sem-vpn.jpeg)
 
+**Teste de acesso a ec2 da api**
 
+![Acesso sem vpn](./imgs/api_sem_vpn.png)
 
-
-
+![Acesso com vpn](./imgs/api_com_vpn.png)
 
 ---
 
