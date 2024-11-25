@@ -160,6 +160,25 @@ Method: GET
 
 ![Acesso com vpn](./imgs/api_com_vpn.png)
 
+**Security Groups configurados**
+
+
+**SC-API**
+![SC-API](./imgs/sc-api.jpeg)
+**SC-Wazuh**
+
+![SC-Wazuh](./imgs/sc-wazuh.jpeg)
+**SC-Zabbix**
+
+![SC-Zabbix](./imgs/sc-zabbix.jpeg)
+**SC-Jumper**
+
+![SC-Jumper](./imgs/sc-jumper.jpeg)
+**SC-BD**
+
+![SC-BD](./imgs/sc-bd.jpeg)
+
+
 ---
 
 ### 5. **Vídeo Demonstrativo do Ambiente em Funcionamento**
