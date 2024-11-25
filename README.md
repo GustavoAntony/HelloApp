@@ -45,13 +45,105 @@ Essa arquitetura, com a separação clara entre sub-redes, o uso estratégico do
 
 ---
 
-### 3. **Evidências de Testes de Segurança**
+### 3. **Rotas da api**
+
+#### API URL
+
+https://api.abcplace.art.br/docs
+
+#### API`s Routes
+
+##### Notes Application API Documentation
+
+**Endpoint: /token**
+
+Method: POST
+
+- Request Body:
+```json
+{
+  "username": "string",
+  "password": "string"
+}
+```
+
+- Response:
+```json
+jsonCopy{
+  "access_token": "string",
+  "token_type": "bearer"
+}
+```
+
+**Endpoint: /notes/**
+
+Method: POST
+
+Authentication: Required (Bearer Token)
+
+- Request Body:
+```json
+{
+  "title": "string", 
+  "text": "string"
+}
+```
+
+**Endpoint: /notes/**
+
+Method: GET
+
+Authentication: Required (Bearer Token)
+
+- Response: List of all notes
+
+**Endpoint: /notes/{note_id}**
+
+Method: GET
+
+Authentication: Required (Bearer Token)
+
+- Parameters:
+
+note_id: Integer ID of the note
+
+- Response: Specific note object
+
+**Endpoint: /notes/{note_id}**
+
+Method: DELETE
+
+Authentication: Required (Bearer Token)
+
+- Parameters:
+
+note_id: Integer ID of the note
+
+- Response:
+```json
+{
+  "message": "Note deleted successfully"
+}
+```
+
+**Endpoint: /**
+
+Method: GET
+
+- Response:
+```json
+{
+  "message": "Hello World"
+}
+```
+
+### 4. **Evidências de Testes de Segurança**
 
 (Adicionar aqui as evidências conforme necessário)
 
 ---
 
-### 4. **Vídeo Demonstrativo do Ambiente em Funcionamento**
+### 5. **Vídeo Demonstrativo do Ambiente em Funcionamento**
 
 Confira o vídeo com uma demonstração do ambiente em funcionamento (até 7 minutos):
 
@@ -59,13 +151,13 @@ Confira o vídeo com uma demonstração do ambiente em funcionamento (até 7 min
 
 ---
 
-### 5. **Alerta Configurado no Zabbix**
+### 6. **Alerta Configurado no Zabbix**
 
 ![Zabbix midia type](./imgs/zabbix-midia-type.jpeg)
 
 ---
 
-### 6. **Teste do Alerta Feito via Zabbix**
+### 7. **Teste do Alerta Feito via Zabbix**
 
 ![Zabbix alert](./imgs/zabbix-alert.jpeg)
 
