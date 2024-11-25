@@ -140,7 +140,24 @@ Method: GET
 
 ### 4. **Evidências de Testes de Segurança**
 
-(Adicionar aqui as evidências conforme necessário)
+**Teste de acesso ao Zabbix sem vpn**
+![Acesso ao Zabbix sem vpn](./imgs/zabbix-sem-vpn.jpeg)
+
+
+**Teste de acesso ao Zabbix com vpn**
+![Acesso ao Zabbix sem vpn](./imgs/zabbix-com-vpn.jpeg)
+
+**Teste de acesso ao Wazuh com vpn**
+![Acesso ao Wazuh sem vpn](./imgs/wazuh-com-vpn.jpeg)
+
+**Teste de acesso ao Wazuh com vpn**
+
+![Acesso ao Wazuh sem vpn](./imgs/wazuh-sem-vpn.jpeg)
+
+
+
+
+
 
 ---
 
