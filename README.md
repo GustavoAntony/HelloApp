@@ -69,7 +69,7 @@ Method: POST
 
 - Response:
 ```json
-jsonCopy{
+{
   "access_token": "string",
   "token_type": "bearer"
 }
@@ -136,6 +136,7 @@ Method: GET
   "message": "Hello World"
 }
 ```
+---
 
 ### 4. **Evidências de Testes de Segurança**
 
